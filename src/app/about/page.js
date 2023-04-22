@@ -1,6 +1,6 @@
 export default function About(){
     return (
-        <div className="max-w-6xl mx-auto space-y-4 items-center">
+        <div className="max-w-6xl mx-auto space-y-4 items-center p-4">
             <h1 className="text-2xl font-medium text-amber-600">About</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum pariatur culpa, magni voluptatibus aliquam quis itaque accusantium dolor odio repellat id rerum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, voluptates debitis. Iure mollitia animi quaerat fugit accusamus nihil, autem nulla quia.</p>
 
