@@ -2,6 +2,7 @@ import Link from 'next/link';
 import MenuItems from './MenuItems';
 import {AiTwotoneHome} from 'react-icons/ai';
 import {BsInfoCircleFill} from 'react-icons/bs';
+import DrakModeSwitch from './DarkModeSwitch';
 
 export default function Header(){
     return (
@@ -18,7 +19,8 @@ export default function Header(){
                     Icon = {BsInfoCircleFill}
                 />
              </div>
-             <div className="flex">
+             <div className="flex items-center space-x-5">
+                <DrakModeSwitch />
                 <Link href="/">
                     <h2 className='text-2'>
                         <span className='font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1'>IMDb</span>

@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from './component/Header'
 import Navbar from './component/Navbar'
+import Providers from './Providers'
 
 
 export const metadata = {
@@ -12,10 +13,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Providers>
           <Header />
           {/* <Navbar /> */}
           <Navbar />
           {children}
+        </Providers>
+          
       </body>
     </html>
   )
