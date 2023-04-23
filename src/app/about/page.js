@@ -2,10 +2,35 @@ export default function About(){
     return (
         <div className="max-w-6xl mx-auto space-y-4 items-center p-4">
             <h1 className="text-2xl font-medium text-amber-600">About</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum pariatur culpa, magni voluptatibus aliquam quis itaque accusantium dolor odio repellat id rerum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, voluptates debitis. Iure mollitia animi quaerat fugit accusamus nihil, autem nulla quia.</p>
+            <p>
+        Welcome to our movie database website! We are a team of passionate movie
+        enthusiasts who have come together to create a one-stop destination for
+        all your movie-related needs.
+      </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ea laborum asperiores amet. Dolorum, maiores, amet, commodi in id optio dolor recusandae repellendus sint rerum ea vel unde quae praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid velit provident, laborum quidem accusamus maxime. Recusandae minima rerum architecto. Placeat, reprehenderit quas. Recusandae, odit. Ad, blanditiis. Minima dolore dolores sunt?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi possimus blanditiis minus obcaecati sunt assumenda harum mollitia iure cum dignissimos, repellendus, rerum soluta quia, adipisci ullam numquam unde aliquam libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolores ullam molestiae officia autem quo inventore aspernatur iure unde, aliquid vel? Mollitia magnam quibusdam cumque laborum sed optio itaque voluptates.</p>
+      <p>
+        Our website is designed to provide you with a comprehensive database of
+        movies from all around the world, along with the latest news, reviews,
+        and trailers. Our movie database is constantly updated with new
+        releases, ensuring that you have access to the latest and greatest in
+        the world of cinema. You can search for movies by title, director,
+        actor, genre, or release date, making it easy to find the perfect movie
+        for any occasion.
+      </p>
+
+      <p>
+        In addition to our extensive movie database, we also offer a platform
+        for movie lovers to connect and share their thoughts on the latest
+        releases. Our community section includes a forum where you can discuss
+        your favorite films with like-minded individuals and read reviews and
+        ratings from other users. We also have a section dedicated to movie news
+        and trailers, keeping you updated with the latest happenings in the
+        world of cinema. Thank you for visiting our website and we hope you
+        enjoy your time browsing through our movie database. If you have any
+        feedback or suggestions, please feel free to contact us. We are always
+        looking for ways to improve and enhance the user experience on our
+        website. Happy browsing!
+      </p>
             
         </div>
     );
