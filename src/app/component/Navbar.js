@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import NavbarItem from "./NavbarItem";
 
 export default function Navbar(){
