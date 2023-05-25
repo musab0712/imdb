@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import './globals.css'
 import Header from './component/Header'
 import Navbar from './component/Navbar'
